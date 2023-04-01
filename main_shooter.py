@@ -12,7 +12,10 @@ clock = time.Clock()
 fps = 60
 
 window = display.set_mode((WIDTH, HEIGHT))
-display.set_caption("Shooter")
+display.set_caption("Space Shooter")
+"""
+Change title
+"""
 display.set_icon(image.load("image/asteroid.png"))
 
 background = transform.scale(image.load("image/galaxy.jpg"), (WIDTH, HEIGHT))
